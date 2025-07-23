@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "ncc build src/index.ts --out ./dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:chess": "node test-chess.mjs"
   },
   "repository": {
     "type": "git",
